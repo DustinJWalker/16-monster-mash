@@ -1,35 +1,56 @@
 <template lang="html">
   <div class="app">
-    <div class="frame">
-      <div class="frame frame__left">
-        <h3>Build Your Monster</h3>
-      </div>
-
-        <div class="grid grid__right">
-
+    <div class="sidebar">
+      <h3 class="sidebar__heading">Build Your Monster</h3>
+        <div class="img__switcher">
+          <button class="btn"></button>
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          <div class="sidebar__frame">
+            <img class="sidebar__img" src="" alt="" />
+          </div>
+          <button class="btn"></button>
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
         </div>
 
-          <div class="grid grid__favs">
-
+        <div class="img__switcher">
+          <button class="btn"></button>
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          <div class="sidebar__frame">
+            <img class="sidebar__img" src="" alt="" />
           </div>
+          <button class="btn"></button>
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
 
-    </div>
+        <div class="img__switcher">
+          <button class="btn"></button>
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          <div class="sidebar__frame">
+            <img class="sidebar__img" src="" alt="" />
+          </div>
+          <button class="btn"></button>
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
 
-  </div>
 
-</template>
+      </div>
 
-<script>
+      </div>
+
+      </template>
+
+      <script>
+
+
 import Vue from 'vue';
 export default Vue.extend({
-  data() {
-    return {
-      monsters: [],
+    data() {
+        return {
+            monsters: [],
 
+        }
     }
-  }
 })
-
 </script>
 
 <style lang="css">
