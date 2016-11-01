@@ -1,0 +1,29 @@
+* [x ] Create a new project named `16-monster-mash` using the `yo qunit-broccoli` command
+* [x ] Run `hub create` to create a new repository on Github
+* [x ] Push `master` branch
+* [ x] Create `develop` branch
+* [ x] Use yarn to install `vue`
+* [ x] Use yarn to install `vueify` (as a dev dependency)
+* [x ] Uncomment the `vueify` lines from the `Brocfile.js` to enable Vueification (is that a thing?)
+* [x ] Add a div with a class of `app` to the `index.html` file
+* [x ] Download the monster parts from [here](https://github.com/tiy-tn-fee-2016-fall/monsters/archive/master.zip) then put the images in a `monster` directory within your `public` directory
+* [x ] In `index.js` import `app.vue` and initialize the App component to the `.app` `el`
+* [ x] In `app/app.vue` create a template and export a new component that extends from `Vue` (you'll need to import `vue`)
+* [ x] Use the `template` in `app.vue` and SCSS to style the application
+  * [ x] Left Side
+  * [x ] Right Side
+  * [x ] Favorites List
+* [ ] In a `data` hook
+  * [ ] add the possible `monsterParts`
+  * [ ] Add selections for the selected monster parts
+  * [ ] Add an array of `favorites`
+* [ ] Add a method called `updatePart` that:
+  * [ ] Takes two arguments: `partName` & `difference`
+  * [ ] Update the selected monster part to it's current value + the `difference` argument (mind the size of the array of possiblities)
+* [ ] Add click events to the part buttons to call the `updatePart` function for the current part with `difference` of `1` or `-1` depending on going up or down
+* [ ] Update the left and right templates so that changes to the selected part index show up immediately
+* [ ] Add a method called `saveMonster`
+* [ ]  * [ ] Make a POST request to `http://tiny-tn.herokuapp.com/collections/<your-initials>-monsters` (don't forget headers for `'Content-Type': 'application/json'`)
+    * [ ] Send `JSON.stringify`ed data for the selected monster parts and name from the form
+    * [ ] Wait for the response and add new monster to the `favorites` array
+* [ ] Update template so that grid on lower right to loop through `favorites` and show each favorite monster
