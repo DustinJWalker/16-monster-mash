@@ -6,7 +6,7 @@
           <button class="btn"></button>
           <i class="fa fa-chevron-left" aria-hidden="true"></i>
           <div class="sidebar__frame">
-            <img class="sidebar__img" src="/monster/body-1.png" alt="" />
+            <img class="sidebar__img" src="/monster/monsters-master/body-1.png" alt="" />
           </div>
           <button class="btn"></button>
           <i class="fa fa-chevron-right" aria-hidden="true"></i>
@@ -16,7 +16,7 @@
           <button class="btn"></button>
           <i class="fa fa-chevron-left" aria-hidden="true"></i>
           <div class="sidebar__frame">
-            <img class="sidebar__img" src="/monster/eyes-1-crossed.png" alt="" />
+            <img class="sidebar__img" src="/monster/monsters-master/eyes-1-crossed.png" alt="" />
           </div>
           <button class="btn"></button>
           <i class="fa fa-chevron-right" aria-hidden="true"></i>
@@ -26,7 +26,7 @@
           <button class="btn"></button>
           <i class="fa fa-chevron-left" aria-hidden="true"></i>
           <div class="sidebar__frame">
-            <img class="sidebar__img" src="/monster/mouth-1.png" alt="" />
+            <img class="sidebar__img" src="/monster/monsters-master/mouth-1.png" alt="" />
           </div>
           <button class="btn"></button>
           <i class="fa fa-chevron-right" aria-hidden="true"></i>
