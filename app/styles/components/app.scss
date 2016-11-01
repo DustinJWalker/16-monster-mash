@@ -1,0 +1,34 @@
+body {
+  margin: 0 auto;
+};
+
+.app {
+  height: 100vh;
+  margin: auto;
+  background: #374140;
+  color: #DC7937;
+  font-family: 'Creepster', cursive;
+
+}
+
+.frame  {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.frame__left  {
+  display: flex;
+  justify-content: space-around;
+
+  border-radius: 0.4rem;
+
+
+}
+
+.heading  {
+  background: black;
+
+
+}
