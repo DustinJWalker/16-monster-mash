@@ -4,8 +4,8 @@
   border: 1px solid $c-black;
   width: 40%;
   min-width: 20rem;
-  height: 100%;
-  overflow: auto;
+
+
 
   &__heading {
     background: $c-black;
@@ -15,30 +15,26 @@
 
   }
 
-  &__img__switcher {
-    display: flex;
-    justify-content: space-between;
-    border: 0.1rem solid $c-black;
-  }
+
 
   &__frame {
     position: relative;
-
+    flex-grow: 1;
   }
 
   &__img {
     position: absolute;
-    // top: 0;
-    // right: 0;
-    // bottom: 0;
-    // left: 0;
-    // object-fit: contain;
+    top: 1;
+    right: 1;
+    bottom: 1;
+    left: 1;
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    object-fit: contain;
 
   }
 
-  &__btn {
-    background: $c-orange;
-  }
+
 
   &__form {
     display: flex;
@@ -57,6 +53,20 @@
     color: $c-orange;
     font-family: inherit;
     border: 0;
+    width: 100%;
+
   }
 
+}
+
+.img__switcher {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+
+  border: 1px solid $c-black;
+
+  &:last-of-type {
+    border-bottom: 0;
+  }
 }
