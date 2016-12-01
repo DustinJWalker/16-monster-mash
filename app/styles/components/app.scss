@@ -1,63 +1,27 @@
 body {
   margin: 0 auto;
-};
-
-.app {
-  height: 100vh;
-  margin: auto;
   background: $c-gray;
+}
+
+button {
+  background: $c-orange;
+  border: 0;
+  width: 2rem;
+}
+.app {
+  display: flex;
+  margin: auto;
   font-family: 'Creepster', cursive;
+  height: 100vh;
+  max-width: 65rem;
+
 
 }
 
-.sidebar  {
+.app__hero {
   display: flex;
   flex-direction: column;
-  width: 30%;
-  min-width: 20rem;
-
-  &__heading {
-    background: $c-black;
-    color: $c-orange;
-    text-align: center;
-    padding: 0.5rem;
-  }
-
-  &__img__switcher {
-    display: flex;
-    justify-content: space-between;
-    border: 0.1rem solid $c-black;
-  }
-
-  &__frame {
-    position: relative;
-
-  }
-
-  &__img {
-    position: absolute;
-
-  }
-
-  &__btn {
-    background: $c-orange;
-  }
-
-  &__form {
-    display: flex;
-    flex-direction: column;
-  }
-
-  &__input {
-    padding: 1rem;
-  }
-
-  &__submit {
-    padding: 1rem;
-    background: $c-black;
-    color: $c-orange;
-
-  }
-
+  border: solid 2px $c-black;
+  border-left: 0;
 
 }
