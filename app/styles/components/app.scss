@@ -1,0 +1,27 @@
+body {
+  margin: 0 auto;
+  background: $c-gray;
+}
+
+button {
+  background: $c-orange;
+  border: 0;
+  width: 2rem;
+}
+.app {
+  display: flex;
+  margin: auto;
+  font-family: 'Creepster', cursive;
+  height: 100vh;
+  max-width: 65rem;
+
+
+}
+
+.app__hero {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px $c-black;
+  border-left: 0;
+
+}

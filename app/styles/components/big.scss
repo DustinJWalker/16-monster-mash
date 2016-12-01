@@ -1,0 +1,16 @@
+
+
+.big {
+  position: relative;
+
+}
+
+.big__img {
+
+  top: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  object-fit: contain;
+  max-width: 65%;
+}
